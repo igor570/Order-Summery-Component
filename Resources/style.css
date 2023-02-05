@@ -1,0 +1,118 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.pageBody{
+    display: flex;
+    height: 100vh;
+}
+
+.component {
+    margin: auto;
+    position: relative;
+    outline: 1px red solid;
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.heroImage {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.orderHeading {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.orderBodyText {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+/* Parent Container for Prices Section */
+.planContainer {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.musicIcon {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.pricesContainer{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#annualText {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    display: block;
+    font-weight: 900;
+}
+
+#priceText {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    display: block;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+#changeText {
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+
+
+
+
+.button {
+    margin: auto;
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 350px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    z-index: 3;
+    /* aligns the content along the main axis (horizontal) use align-content for vertical*/
+    justify-content: center;
+    align-content: center;
+}
+
+#paymentText{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#cancelText {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    color: hsl(224, 23%, 55%);
+}
