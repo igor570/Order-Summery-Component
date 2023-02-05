@@ -10,7 +10,6 @@ body {
 .component {
     margin: auto;
     position: relative;
-    outline: 1px red solid;
     height: 700px;
     width: 450px;
     background-color: white;
@@ -78,14 +77,21 @@ body {
 
 #changeText {
     font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
     display: inline-block;
     margin-left: 100px;
     font-size: 14px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+#changeText:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
-
-
+/* button containers */
 
 .button {
     margin: auto;
@@ -101,6 +107,15 @@ body {
     align-content: center;
 }
 
+.button:hover {
+    cursor: pointer;
+
+}
+
+.button:active{
+    background-color: hsl(223, 47%, 23%);
+}
+
 #paymentText{
     font-family: 'Red Hat Display', sans-serif;
     color: white;
@@ -108,6 +123,8 @@ body {
     font-weight: 500;
 }
 
+
+/* Cancel Text */
 #cancelText {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
@@ -115,4 +132,9 @@ body {
     text-align: center;
     margin-top: 30px;
     color: hsl(224, 23%, 55%);
+}
+
+#cancelText:hover{
+    color:hsl(245, 75%, 52%);
+    cursor: pointer;
 }
